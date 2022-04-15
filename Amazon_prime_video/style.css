@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0f171e;
+    color: white;
+    height: 60px;
+    align-items: center;
+    padding:0 10px ;
+}
+button{
+    font-size: larger;
+    color: white;
+    background-color: #0F79AF;
+    border: none;
+}
+.hside{
+    display: grid;
+    grid-auto-flow: column;
+}
+.hside > button{
+    /* border: none; */
+    margin-right: 10px;
+}
+main div{
+    height: 60vh;
+}
+.main1,.main2,.main4{
+    color: white;
+    display: flex;
+}
+.himg{
+    width: 60vw;
+    background-image: linear-gradient(to right,black,blue );
+}
+#main11{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    background-color: rgb(0, 0, 0);
+}
+#main11 > h1{
+    font-size:40px;
+    margin-top:150px;
+}
+#main11 > p{
+    font-size:20px ;
+}
+#main11 > button{
+    border-radius: 2px;
+    height: 40px;
+    width: 400px;
+}
+#main11 h1,#main11 p,#main11 button{
+    margin-left:100px ;
+    margin-bottom: 20px;
+
+}
+.main2{
+    flex-direction: row;
+    color: black;
+}
+.main21,.main22{
+    font-size: 20px;
+    font-weight: lighter;
+    width: 50vw;
+}
+.main21 h1{
+    margin: 60px 60px 40px 60px;
+}
+.main21 p{
+    margin: 0 60px 60px 60px ;
+}
+.main22{
+    display: grid;
+    grid-template-columns: 229px 229px 229px;
+    grid-template-rows: 150px 150px 150px;
+    margin:10px;
+    grid-gap: -20px;
+}
+.main22 img{
+    width: 224px;
+    height: 134px;
+    padding-right: -40px;
+}
+.main3{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    margin-top: 70px;
+}
+#circle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#circle img{
+    height: 200px;
+    width: 200px;
+}
+.main3 h2,p{
+    text-align: center;
+margin-top: 20px;
+}
+#main41 > h1{
+    font-size:40px;
+    margin-top:120px;
+}
+#main41 > p{
+    font-size:20px ;
+}
+#main41 > button{
+    border-radius: 2px;
+    height: 40px;
+    width: 400px;
+}
+#main41 h1,#main41 p,#main41 button{
+    margin-left:100px ;
+    margin-bottom: 20px;
+
+}
+#main41{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    background-color: rgb(0, 0, 0);
+}
